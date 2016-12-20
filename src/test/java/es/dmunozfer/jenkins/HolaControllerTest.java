@@ -55,7 +55,7 @@ public class HolaControllerTest {
 	.andExpect(model().attributeExists("nombre"))
 	.andExpect(model().attribute("nombre", is("David")))
 	.andExpect(content().string(containsString("¡Hola David!")))
-	;
+	;//Hola esto es una prueba para ver que funciona
     }
 
 }
